@@ -1,1 +1,49 @@
+/* STYLEZ */
+
+/* colo(u)r */
+
+.fill {
+	background-color: #F9692B; /* "NOMA" orange */
+}
+
+/* USE Inter font */
+
+@import url('https://rsms.me/inter/inter.css');
+	html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+	html { font-family: 'Inter var', sans-serif; }
+}
+
+/* STUFF */
+
+body {
+  background-color: #ff0;
+}
+
+h1 {
+	font-family: 'Inter'; 
+  font-size: 4em;
+  color: #099;
+	line-height: 1em;
+}
+
+.alt-colour {
+	color: gold;
+}
+
+a {
+  color: hotpink;
+}
+
+/* QAZ */
+
+.float {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+
+}
+
+/* mv */
 
